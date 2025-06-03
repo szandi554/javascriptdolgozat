@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+#bgBox {
+    width: 900px;
+    height: 700px;
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border: 3px solid #222;
+    transition: background-image 0.5s ease-in-out;
+}
+
