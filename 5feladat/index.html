@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Rentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+    <div class="logo">Office Sphere</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button>Keresés</button>
+    </div>
+  </nav>
+
+  <h1>Foglalási naptár</h1>
+  <div class="container">
+    <div class="card p-3 calendar-card">
+      <div class="calendar-header">
+        <button class="nav-arrow" id="prevMonth">&lt;</button>
+        <select class="form-select" id="monthSelect">
+          <option value="0">Jan</option>
+          <option value="1">Feb</option>
+          <option value="2">Mar</option>
+          <option value="3" selected>Apr</option>
+          <option value="4">May</option>
+          <option value="5">Jun</option>
+        </select>
+        <select class="form-select" id="yearSelect">
+          <option value="2024">2024</option>
+          <option value="2025" selected>2025</option>
+          <option value="2026">2026</option>
+        </select>
+        <button class="nav-arrow" id="nextMonth">&gt;</button>
+      </div>
+      <div class="calendar-grid">
+        <div class="day-label">M</div>
+        <div class="day-label">T</div>
+        <div class="day-label">W</div>
+        <div class="day-label">T</div>
+        <div class="day-label">F</div>
+        <div class="day-label">S</div>
+        <div class="day-label">S</div>
+      </div>
+      <div class="calendar-days" id="calendarDays"></div>
+    </div>
+
+    <h2>Válassz irodát a foglaláshoz:</h2>
+    <select id="officeSelect">
+      <option value="Skyline Offices">Skyline Offices – New York, USA</option>
+      <option value="Seaside Workspace">Seaside Workspace – London, UK</option>
+      <option value="Urban Nest Offices">Urban Nest Offices – Budapest, Hungary</option>
+      <option value="Sunset Towers">Sunset Towers – Sydney, Australia</option>
+    </select>
+
+    <button class="btn btn-success submit-reservation-btn" id="submitReservation">Foglalás elküldése</button>
+  </div>
+
+
+  <div class="office-list" id="office-list"></div>
+  <script src="app.js"></script>
+
+</body>
+</html>
+
+
