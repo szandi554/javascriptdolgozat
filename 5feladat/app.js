@@ -115,7 +115,7 @@ function createOfficeCard(office, id) {
     <h3>${office.name}</h3>
     <p><strong>Address:</strong> ${office.address}</p>
     <p><strong>Area:</strong> ${office.area_m2} m²</p>
-    <p><strong>Base Fee:</strong> ${office.basePrice_fee} €</p>
+    <p><strong>Base Fee:</strong> ${office.base_fee} €</p>
     <p><strong>Daily Price:</strong> ${office.daily_price} € / day</p>
     <button class="reserve-btn">Reserve</button>
   `;
