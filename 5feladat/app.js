@@ -114,9 +114,9 @@ function createOfficeCard(office, id) {
     <img src="${office.image || 'https://via.placeholder.com/300x150'}" alt="${office.name}">
     <h3>${office.name}</h3>
     <p><strong>Address:</strong> ${office.address}</p>
-    <p><strong>Area:</strong> ${office.area} m²</p>
-    <p><strong>Base Fee:</strong> ${office.basePrice} €</p>
-    <p><strong>Daily Price:</strong> ${office.dailyPrice} € / day</p>
+    <p><strong>Area:</strong> ${office.area_m2} m²</p>
+    <p><strong>Base Fee:</strong> ${office.basePrice_fee} €</p>
+    <p><strong>Daily Price:</strong> ${office.daily_price} € / day</p>
     <button class="reserve-btn">Reserve</button>
   `;
 
