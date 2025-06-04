@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+div {
+    height: 100px;
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+div:nth-child(1) {
+    background-color: #0074D9;
+}
+
+div:nth-child(2) {
+    background-color: #2ECC40;
+}
+
+div:nth-child(3) {
+    background-color: #FF851B;
+}
+
+div:nth-child(4) {
+    background-color: #B10DC9;
+}
+
+div:nth-child(5) {
+    background-color: #FF4136;
+}
